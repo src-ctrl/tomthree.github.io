@@ -1,7 +1,13 @@
 /* Here's some environment setup,
-   scroll down for the interesting parts */
+   scroll down for the interesting parts
 
-@import url('https://fonts.googleapis.com/css?family=Lato:200');
+#032b1e
+
+#1b6651 circuit line
+#60cca8 circuit circles/chips
+#5fd4ad circuit message
+
+ */
 
 html, body {
   width: 100%;
@@ -41,7 +47,7 @@ h1 {
   align-items: center;
   justify-content: center;
 
-  position: absolute;
+  position: fixed;
   z-index: 1;
 }
 
@@ -133,16 +139,23 @@ h1 {
 
 
 
-
+.page {
+	width: 1600px;
+	height: 2400px;
+  scroll-behavior: smooth;
+}
 
 .circuit {
-  transform: rotate(90deg);
+
   z-index: -1;
+  transform: rotate(90deg);
+
 }
 .circuit svg {
-width: 100vh;
-height: 100vw;
-  background-color: #000;
+
+
+  background-color: #0e1f19;
+
 }
 
 .path {

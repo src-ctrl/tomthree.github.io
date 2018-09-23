@@ -13,6 +13,7 @@
 	</head>
 
 	<body>
+		<div class="page">
 
 		<div class="animated-box in">
 			<h1>tomthree</h1>
@@ -21,11 +22,11 @@
 		<div class="circuit">
 
 
-			<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+			<svg width="2400px" height="1600px" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
 				<defs>
 				<linearGradient id="linear" x1="0%" y1="0%" x2="100%" y2="0%">
-				<stop offset="0%"   stop-color="#b8ffff"/>
-				<stop offset="100%" stop-color="#9cffe1"/>
+				<stop offset="0%"   stop-color="#5fd4ad"/>
+				<stop offset="100%" stop-color="#5fd4ad"/>
 				</linearGradient>
 				</defs>
 				<g id="module-01" transform="translate(-1.000000, 0.000000)" class="path path-01" stroke="url(#linear)" stroke-width="4" fill="none" fill-rule="evenodd" stroke-linecap="butt" stroke-linejoin="round" fill="none" stroke-opacity="1" stroke-dasharray="8,960,24,960,16,400" stroke-dashoffset="6400">
@@ -493,7 +494,7 @@
 
 
 
-				<g id="static" transform="translate(48.000000, 56.000000)" stroke="#b8ffff" stroke-width="2" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
+				<g id="static" transform="translate(48.000000, 56.000000)" stroke="#60cca8" stroke-width="2" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
 				<rect x="132" y="0" width="48" height="48" rx="4"></rect>
 				<circle cx="172" cy="200" r="4"></circle>
 				<circle cx="200" cy="212" r="4"></circle>
@@ -800,7 +801,7 @@
 				<circle cx="1811" cy="1280" r="4"></circle>
 				</g>
 
-				<g id="paths-bg" transform="translate(0.000000, 0.000000)" stroke="#3ce8ba" stroke-width="2" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
+				<g id="paths-bg" transform="translate(0.000000, 0.000000)" stroke="#1b6651" stroke-width="2" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
 				<g id="C23" transform="translate(176.000000, 0.000000)">
 				<polyline id="path" points="52 92 84 92 116 60 116 0"></polyline>
 				<polyline id="path" points="52 84 80 84 108 56 108 0"></polyline>
@@ -1255,8 +1256,39 @@
 				</g>
 				</g>
 			</svg>
+			</div>
 
 		</div>
+
+	<script>
+
+		//window.scrollTo(30, 450);
+window.scroll({
+  top: 100, 
+  left: 400, 
+  behavior: 'smooth' 
+});
+
+		var c = document.getElementsByClassName("page")[0];
+		// Scroll to specific values
+// scrollTo is the same
+
+
+/*
+
+// Scroll certain amounts from current position 
+window.scrollBy({ 
+  top: 100, // could be negative value
+  left: 0, 
+  behavior: 'smooth' 
+});
+
+// Scroll to a certain element
+document.querySelector('.hello').scrollIntoView({ 
+  behavior: 'smooth' 
+});
+*/
+	</script>
 
 	</body>
 
