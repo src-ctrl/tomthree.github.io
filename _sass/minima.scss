@@ -49,3 +49,46 @@ $on-laptop:        800px !default;
   "minima/layout",
   "minima/syntax-highlighting"
 ;
+
+
+.circuit {
+
+  z-index: -1;
+//  transform: rotate(90deg);
+
+}
+.circuit svg {
+  background-color: #0e1f19;
+}
+
+.path {
+  animation: draw 20s infinite;
+  animation-timing-function: linear;
+}
+.path-01 {
+  animation-delay: 0s;
+}
+.path-02 {
+  animation-delay: 0s;
+}
+.path-03 {
+  animation-delay: 0s;
+}
+.path-04 {
+  animation-delay: 0s;
+}
+.path-05 {
+  animation-delay: 0s;
+}
+
+
+
+@keyframes draw {
+  0% {
+  }
+  100% {
+    stroke-dashoffset: 0;
+    stroke-opacity: 1;
+  }
+}
+
