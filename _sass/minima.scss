@@ -11,7 +11,7 @@ $base-line-height: 1.5 !default;
 $spacing-unit:     30px !default;
 
 $text-color:       #ccc !default;
-$background-color: #0e1f19 !default;
+$background-color: #000 !default;
 $brand-color:      #3afacf !default;
 
 $grey-color:       #828282 !default;
@@ -51,44 +51,15 @@ $on-laptop:        800px !default;
 ;
 
 
-.circuit {
-
+.bg-circuit {
+  position: absolute;
+  width: 100%;
+  height: 100%;
   z-index: -1;
 //  transform: rotate(90deg);
-
 }
-.circuit svg {
-  background-color: #0e1f19;
-}
-
-.path {
-  animation: draw 20s infinite;
-  animation-timing-function: linear;
-}
-.path-01 {
-  animation-delay: 0s;
-}
-.path-02 {
-  animation-delay: 0s;
-}
-.path-03 {
-  animation-delay: 0s;
-}
-.path-04 {
-  animation-delay: 0s;
-}
-.path-05 {
-  animation-delay: 0s;
-}
-
-
-
-@keyframes draw {
-  0% {
-  }
-  100% {
-    stroke-dashoffset: 0;
-    stroke-opacity: 1;
-  }
+.bg-circuit object {
+  width: 100%;
+  height: 100%;
 }
 
